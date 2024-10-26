@@ -7,29 +7,29 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Catatan
+Catatan <br>
 
-git clone link
-composer install
-cp .env.example .env
-nama .env sesuai kebutuhan
-php artisan key:generate
-php artisan migrate
-php artisan serve
+git clone link <br>
+composer install <br>
+cp .env.example .env <br>
+nama .env sesuai kebutuhan <br>
+php artisan key:generate <br>
+php artisan migrate <br>
+php artisan serve <br>
 
-laravel migartion dan seeding 
-php artisan make:migration create_flights_table
-php artisan migartin:rollbek
+laravel migartion dan seeding  <br>
+php artisan make:migration create_flights_table <br>
+php artisan migartin:rollbek <br>
 
-seeders name
-php artisan make:seeder BookshelfSeeder
+seeders name <br>
+php artisan make:seeder BookshelfSeeder <br>
 
-$this->call([
-            BookshelfSeeder::class,
-        ]);
+$this->call([ <br>
+            BookshelfSeeder::class, <br>
+        ]); <br>
 
-php artisan db:seed
-## About Laravel
+php artisan db:seed <br>
+## About Laravel <br>
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
